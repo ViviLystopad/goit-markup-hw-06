@@ -286,6 +286,10 @@ margin-bottom: auto;
 .mobile-menu-item {
     margin-bottom: 40px;
 }
+.mobile-menu-item:last-child {
+    margin-bottom: 0;
+}
+
 .mobile-menu-link {
     font-weight: 700;
     font-size: 36px;
@@ -299,6 +303,9 @@ margin-bottom: auto;
 
 .mobile-address-item {
     margin-bottom: 24px;
+}
+.mobile-address-item:last-child {
+    margin-bottom: 0;
 }
 
 .mobile-address-link {
@@ -317,7 +324,7 @@ margin-bottom: auto;
 .mobile-socials-list {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
+    margin-top: 48px;
 }
 
 .soc-icon {
@@ -581,7 +588,7 @@ margin-bottom: auto;
     flex-wrap: wrap;
     gap: 72px;
     text-align: center;
-    padding: 0 12px 0;
+    justify-content: center;
 }
 
 .team-list-item {
@@ -874,7 +881,6 @@ margin-bottom: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 288px;
     margin-bottom: 16px;
 }
 
